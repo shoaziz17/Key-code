@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background-color: gray;
+}
+
+.insert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.info{
+    background-color: #0ADD08;
+    width: 450px;
+    padding: 10px 15px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.key{
+    background-color: #0ADD08;
+    color: black;
+    margin-right: 20px;
+    padding: 10px 15px;
+    position: relative;
+}
+
+small{
+    position: absolute;
+    top: -24px;
+    left: 0;
+    width: 100%;
+    
+}
